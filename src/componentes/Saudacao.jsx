@@ -16,11 +16,7 @@ export default class Saudacao extends Component {
    }
 
    setTipo(evento) {
-     //console.log(evento.target.value)
-     /*let i = 1
-     setInterval(() => {
-       this.setState({tipo: ++i})
-     }, 1000) */
+     
      this.setState({tipo: evento.target.value})
    }
 
